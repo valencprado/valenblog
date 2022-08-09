@@ -1,0 +1,10 @@
+.featured-post-container div img{
+    width: 100%;
+    max-width: 45vw;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.featured-post-container{
+    display: flex;
+}
