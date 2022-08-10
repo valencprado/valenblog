@@ -1,10 +1,22 @@
-.featured-post-container div img{
-    width: 100%;
-    max-width: 45vw;
-    border-radius: 6px;
-    justify-content: space-between;
-}
-
 .featured-post-container{
     display: flex;
+    justify-content: space-evenly;
+    color: #222830;
+}
+.featured-post-container div img{
+    width: 100%;
+    max-width: 40vw;
+    border-radius: 6px;
+}
+.featured-post-container div:nth-child(2){
+    max-width: 35vw;
+}
+.featured-post-date{
+    font-size: 0.8rem;
+}
+.featured-post-title, .featured-post-description{
+   margin-top: 10px;
+}
+.featured-post-description{
+    color: #4a4a4a;
 }
