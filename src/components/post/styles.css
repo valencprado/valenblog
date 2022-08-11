@@ -1,0 +1,31 @@
+.post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #222830;
+    margin-top: 50px;
+}
+.post-image{
+    width: 100%;
+    max-width: 35vw;
+    height: 17vw;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.post-container div:nth-child(2){
+    max-width: 35vw;
+}
+.post-date{
+    font-size: 0.8rem;
+}
+.post-title
+, .post-description{
+   margin-top: 10px;
+}
+.post-description{
+    color: #4a4a4a;
+}
+.post-title{
+    color: #222830;
+    text-decoration: none;
+}
