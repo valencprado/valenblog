@@ -2,11 +2,14 @@
     display: flex;
     justify-content: space-evenly;
     color: #222830;
+    margin-top: 50px;
 }
-.featured-post-container div img{
+.featured-post-image{
     width: 100%;
     max-width: 40vw;
+    height: 23vw;
     border-radius: 6px;
+    object-fit: cover;
 }
 .featured-post-container div:nth-child(2){
     max-width: 35vw;
@@ -14,9 +17,14 @@
 .featured-post-date{
     font-size: 0.8rem;
 }
-.featured-post-title, .featured-post-description{
+.featured-post-title
+, .featured-post-description{
    margin-top: 10px;
 }
 .featured-post-description{
     color: #4a4a4a;
+}
+.featured-post-title{
+    color: #222830;
+    text-decoration: none;
 }
