@@ -6,6 +6,7 @@ export default function Home(){
     const [posts, setPosts] = useState();
     async function getPosts(){
         const response = await fetch('https://valenblog-api.herokuapp.com/');
+        const cors = await fetch('https://murmuring-chamber-80815.herokuapp.com/');
         console.log(response)
         const data = await response.json();
         console.log(data);
