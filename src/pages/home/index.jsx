@@ -5,7 +5,7 @@ import PostList from "../../components/post-list"
 export default function Home(){
     const [posts, setPosts] = useState();
     async function getPosts(){
-        const response = await fetch('https://cms-blog-tutorial.herokuapp.com/api/posts?populate=*');
+        const response = await fetch('https://valenblog-api.herokuapp.com/');
         console.log(response)
         const data = await response.json();
         console.log(data);
